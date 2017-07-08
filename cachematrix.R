@@ -24,8 +24,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The next function takes the output of the previous matrix makeCacheMatrix(matrix) as an 
 ## input and checks whether the inverse matrix has already a value in it or not. 
-## In case the inverse matrix has has not been computed, it gets the original matrix data and sets the invertible matrix by using the solve function.
-## In case the inverse matrix has some value in it, it returns a message  "Getting cached data" and the cached object.
+## In case the inverse matrix has has not been computed, it gets the original matrix data 
+## and sets the invertible matrix by using the solve function.
+## In case the inverse matrix has some value in it, it returns a message  "Getting cached data" 
+## and the cached object.
 
 cacheSolve <- function(x, ...) {
 
